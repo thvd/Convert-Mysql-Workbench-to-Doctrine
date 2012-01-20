@@ -1,0 +1,8 @@
+DoctrineWorkbenchConverterBundle:
+    resource: "@DoctrineWorkbenchConverterBundle/Resources/config/routing.yml"
+    prefix:   /
+
+# Internal routing configuration to handle ESI
+#_internal:
+#   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
+#   prefix:   /_internal

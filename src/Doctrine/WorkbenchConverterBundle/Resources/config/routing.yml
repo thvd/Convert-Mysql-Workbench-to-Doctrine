@@ -1,0 +1,7 @@
+DoctrineWorkbenchConverterBundle_homepage:
+    pattern:  /
+    defaults: { _controller: DoctrineWorkbenchConverterBundle:Default:index }
+
+DoctrineWorkbenchConverterBundle_convert:
+    pattern:  /convert
+    defaults: { _controller: DoctrineWorkbenchConverterBundle:Default:convert }

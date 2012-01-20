@@ -1,0 +1,7 @@
+parameters:
+#    doctrine_workbench_converter.example.class: Doctrine\WorkbenchConverterBundle\Example
+
+services:
+#    doctrine_workbench_converter.example:
+#        class: %doctrine_workbench_converter.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
