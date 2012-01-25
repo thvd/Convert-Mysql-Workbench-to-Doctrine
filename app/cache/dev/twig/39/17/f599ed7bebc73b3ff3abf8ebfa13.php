@@ -8,7 +8,9 @@ class __TwigTemplate_3917f599ed7bebc73b3ff3abf8ebfa13 extends Twig_Template
         parent::__construct($env);
 
         $this->blocks = array(
+            'header' => array($this, 'block_header'),
             'main' => array($this, 'block_main'),
+            'footer' => array($this, 'block_footer'),
         );
     }
 
@@ -91,17 +93,23 @@ class __TwigTemplate_3917f599ed7bebc73b3ff3abf8ebfa13 extends Twig_Template
 
 <body>
   <header>
-
-  </header>
+";
+        // line 47
+        $this->displayBlock('header', $context, $blocks);
+        // line 50
+        echo "  </header>
   <div role=\"main\">
 ";
-        // line 50
+        // line 52
         $this->displayBlock('main', $context, $blocks);
-        // line 53
+        // line 55
         echo "  </div>
   <footer>
-
-  </footer>
+";
+        // line 57
+        $this->displayBlock('footer', $context, $blocks);
+        // line 60
+        echo "  </footer>
 
 
   <!-- JavaScript at the bottom for fast page loading -->
@@ -116,31 +124,37 @@ class __TwigTemplate_3917f599ed7bebc73b3ff3abf8ebfa13 extends Twig_Template
   <script defer src=\"js/script.js\"></script-->
   
 \t";
-        // line 70
+        // line 74
         if (isset($context['assetic']['debug']) && $context['assetic']['debug']) {
-            // asset "2df36c2_0"
-            $context["asset_url"] = isset($context['assetic']['use_controller']) && $context['assetic']['use_controller'] ? $this->env->getExtension('routing')->getPath("_assetic_2df36c2_0") : $this->env->getExtension('assets')->getAssetUrl("_controller/js/2df36c2_plugins_1.js");
-            // line 74
+            // asset "f8bf3cd_0"
+            $context["asset_url"] = isset($context['assetic']['use_controller']) && $context['assetic']['use_controller'] ? $this->env->getExtension('routing')->getPath("_assetic_f8bf3cd_0") : $this->env->getExtension('assets')->getAssetUrl("_controller/js/f8bf3cd_knockout-2.0.0_1.js");
+            // line 79
             echo "\t\t<script defer src=\"";
             echo twig_escape_filter($this->env, $this->getContext($context, "asset_url"), "html", null, true);
             echo "\"></script>
 \t";
-            // asset "2df36c2_1"
-            $context["asset_url"] = isset($context['assetic']['use_controller']) && $context['assetic']['use_controller'] ? $this->env->getExtension('routing')->getPath("_assetic_2df36c2_1") : $this->env->getExtension('assets')->getAssetUrl("_controller/js/2df36c2_script_2.js");
+            // asset "f8bf3cd_1"
+            $context["asset_url"] = isset($context['assetic']['use_controller']) && $context['assetic']['use_controller'] ? $this->env->getExtension('routing')->getPath("_assetic_f8bf3cd_1") : $this->env->getExtension('assets')->getAssetUrl("_controller/js/f8bf3cd_plugins_2.js");
+            echo "\t\t<script defer src=\"";
+            echo twig_escape_filter($this->env, $this->getContext($context, "asset_url"), "html", null, true);
+            echo "\"></script>
+\t";
+            // asset "f8bf3cd_2"
+            $context["asset_url"] = isset($context['assetic']['use_controller']) && $context['assetic']['use_controller'] ? $this->env->getExtension('routing')->getPath("_assetic_f8bf3cd_2") : $this->env->getExtension('assets')->getAssetUrl("_controller/js/f8bf3cd_script_3.js");
             echo "\t\t<script defer src=\"";
             echo twig_escape_filter($this->env, $this->getContext($context, "asset_url"), "html", null, true);
             echo "\"></script>
 \t";
         } else {
-            // asset "2df36c2"
-            $context["asset_url"] = isset($context['assetic']['use_controller']) && $context['assetic']['use_controller'] ? $this->env->getExtension('routing')->getPath("_assetic_2df36c2") : $this->env->getExtension('assets')->getAssetUrl("_controller/js/2df36c2.js");
+            // asset "f8bf3cd"
+            $context["asset_url"] = isset($context['assetic']['use_controller']) && $context['assetic']['use_controller'] ? $this->env->getExtension('routing')->getPath("_assetic_f8bf3cd") : $this->env->getExtension('assets')->getAssetUrl("_controller/js/f8bf3cd.js");
             echo "\t\t<script defer src=\"";
             echo twig_escape_filter($this->env, $this->getContext($context, "asset_url"), "html", null, true);
             echo "\"></script>
 \t";
         }
         unset($context["asset_url"]);
-        // line 76
+        // line 81
         echo "  <!-- end scripts -->
 
 
@@ -165,11 +179,27 @@ class __TwigTemplate_3917f599ed7bebc73b3ff3abf8ebfa13 extends Twig_Template
 ";
     }
 
-    // line 50
+    // line 47
+    public function block_header($context, array $blocks = array())
+    {
+        // line 48
+        echo "    Header content of the page...
+";
+    }
+
+    // line 52
     public function block_main($context, array $blocks = array())
     {
-        // line 51
+        // line 53
         echo "    Main content of the page...
+";
+    }
+
+    // line 57
+    public function block_footer($context, array $blocks = array())
+    {
+        // line 58
+        echo "    Footer content of the page...
 ";
     }
 

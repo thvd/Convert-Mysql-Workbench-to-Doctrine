@@ -44,7 +44,9 @@
 
 <body>
   <header>
-
+{% block header %}
+    Header content of the page...
+{% endblock %}
   </header>
   <div role="main">
 {% block main %}
@@ -52,7 +54,9 @@
 {% endblock %}
   </div>
   <footer>
-
+{% block footer %}
+    Footer content of the page...
+{% endblock %}
   </footer>
 
 
@@ -68,6 +72,7 @@
   <script defer src="js/script.js"></script-->
   
 	{% javascripts
+		'@DoctrineWorkbenchConverterBundle/Resources/public/js/libs/knockout-2.0.0.js'
 		'@DoctrineWorkbenchConverterBundle/Resources/public/js/plugins.js'
 		'@DoctrineWorkbenchConverterBundle/Resources/public/js/script.js'
 	%}

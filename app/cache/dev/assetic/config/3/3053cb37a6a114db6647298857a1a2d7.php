@@ -36,20 +36,21 @@ return array (
       'combine' => NULL,
     ),
   ),
-  '2df36c2' => 
+  'f8bf3cd' => 
   array (
     0 => 
     array (
-      0 => '@DoctrineWorkbenchConverterBundle/Resources/public/js/plugins.js',
-      1 => '@DoctrineWorkbenchConverterBundle/Resources/public/js/script.js',
+      0 => '@DoctrineWorkbenchConverterBundle/Resources/public/js/libs/knockout-2.0.0.js',
+      1 => '@DoctrineWorkbenchConverterBundle/Resources/public/js/plugins.js',
+      2 => '@DoctrineWorkbenchConverterBundle/Resources/public/js/script.js',
     ),
     1 => 
     array (
     ),
     2 => 
     array (
-      'output' => '_controller/js/2df36c2.js',
-      'name' => '2df36c2',
+      'output' => '_controller/js/f8bf3cd.js',
+      'name' => 'f8bf3cd',
       'debug' => NULL,
       'combine' => NULL,
     ),

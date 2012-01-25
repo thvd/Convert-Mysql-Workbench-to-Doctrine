@@ -96,19 +96,24 @@ class appdevUrlMatcher extends Symfony\Bundle\FrameworkBundle\Routing\Redirectab
             return array (  '_controller' => 'assetic.controller:render',  'name' => 'eb3cc7c',  'pos' => 0,  '_format' => 'js',  '_route' => '_assetic_eb3cc7c_0',);
         }
 
-        // _assetic_2df36c2
-        if ($pathinfo === '/js/2df36c2.js') {
-            return array (  '_controller' => 'assetic.controller:render',  'name' => '2df36c2',  'pos' => NULL,  '_format' => 'js',  '_route' => '_assetic_2df36c2',);
+        // _assetic_f8bf3cd
+        if ($pathinfo === '/js/f8bf3cd.js') {
+            return array (  '_controller' => 'assetic.controller:render',  'name' => 'f8bf3cd',  'pos' => NULL,  '_format' => 'js',  '_route' => '_assetic_f8bf3cd',);
         }
 
-        // _assetic_2df36c2_0
-        if ($pathinfo === '/js/2df36c2_plugins_1.js') {
-            return array (  '_controller' => 'assetic.controller:render',  'name' => '2df36c2',  'pos' => 0,  '_format' => 'js',  '_route' => '_assetic_2df36c2_0',);
+        // _assetic_f8bf3cd_0
+        if ($pathinfo === '/js/f8bf3cd_knockout-2.0.0_1.js') {
+            return array (  '_controller' => 'assetic.controller:render',  'name' => 'f8bf3cd',  'pos' => 0,  '_format' => 'js',  '_route' => '_assetic_f8bf3cd_0',);
         }
 
-        // _assetic_2df36c2_1
-        if ($pathinfo === '/js/2df36c2_script_2.js') {
-            return array (  '_controller' => 'assetic.controller:render',  'name' => '2df36c2',  'pos' => 1,  '_format' => 'js',  '_route' => '_assetic_2df36c2_1',);
+        // _assetic_f8bf3cd_1
+        if ($pathinfo === '/js/f8bf3cd_plugins_2.js') {
+            return array (  '_controller' => 'assetic.controller:render',  'name' => 'f8bf3cd',  'pos' => 1,  '_format' => 'js',  '_route' => '_assetic_f8bf3cd_1',);
+        }
+
+        // _assetic_f8bf3cd_2
+        if ($pathinfo === '/js/f8bf3cd_script_3.js') {
+            return array (  '_controller' => 'assetic.controller:render',  'name' => 'f8bf3cd',  'pos' => 2,  '_format' => 'js',  '_route' => '_assetic_f8bf3cd_2',);
         }
 
         // _wdt

@@ -1,8 +1,22 @@
 {% extends '::h5bp_base.html.twig' %}
 
+{% block header %}
+	<script> 
+		var convert_path = "{{ path('DoctrineWorkbenchConverterBundle_convert') }}",
+			csrf_token = "{{ csrf_token }}";
+	</script>
+	<h1> On this page you can convert a Mysql Workbench file to an yml Doctrine file. </h1>
+{% endblock %}
+
 {% block main %}
 	<form enctype="multipart/form-data" method="POST">
 		<input type="file" name="database">
 		<input type="submit">
 	</form>
+	
+	<div id="list"></div>
+	
+	<button id="convert"> Click to convert! </button>
+	
+	<textarea id="output"></textarea>
 {% endblock %}

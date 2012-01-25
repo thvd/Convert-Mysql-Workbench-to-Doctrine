@@ -26,9 +26,10 @@ class appdevUrlGenerator extends Symfony\Component\Routing\Generator\UrlGenerato
        '_assetic_25493a6_0' => true,
        '_assetic_eb3cc7c' => true,
        '_assetic_eb3cc7c_0' => true,
-       '_assetic_2df36c2' => true,
-       '_assetic_2df36c2_0' => true,
-       '_assetic_2df36c2_1' => true,
+       '_assetic_f8bf3cd' => true,
+       '_assetic_f8bf3cd_0' => true,
+       '_assetic_f8bf3cd_1' => true,
+       '_assetic_f8bf3cd_2' => true,
        '_wdt' => true,
        '_profiler_search' => true,
        '_profiler_purge' => true,
@@ -129,19 +130,24 @@ class appdevUrlGenerator extends Symfony\Component\Routing\Generator\UrlGenerato
         return array(array (), array (  '_controller' => 'assetic.controller:render',  'name' => 'eb3cc7c',  'pos' => 0,  '_format' => 'js',), array (), array (  0 =>   array (    0 => 'text',    1 => '/js/eb3cc7c_modernizr-2.0.6.min_1.js',  ),));
     }
 
-    private function get_assetic_2df36c2RouteInfo()
+    private function get_assetic_f8bf3cdRouteInfo()
     {
-        return array(array (), array (  '_controller' => 'assetic.controller:render',  'name' => '2df36c2',  'pos' => NULL,  '_format' => 'js',), array (), array (  0 =>   array (    0 => 'text',    1 => '/js/2df36c2.js',  ),));
+        return array(array (), array (  '_controller' => 'assetic.controller:render',  'name' => 'f8bf3cd',  'pos' => NULL,  '_format' => 'js',), array (), array (  0 =>   array (    0 => 'text',    1 => '/js/f8bf3cd.js',  ),));
     }
 
-    private function get_assetic_2df36c2_0RouteInfo()
+    private function get_assetic_f8bf3cd_0RouteInfo()
     {
-        return array(array (), array (  '_controller' => 'assetic.controller:render',  'name' => '2df36c2',  'pos' => 0,  '_format' => 'js',), array (), array (  0 =>   array (    0 => 'text',    1 => '/js/2df36c2_plugins_1.js',  ),));
+        return array(array (), array (  '_controller' => 'assetic.controller:render',  'name' => 'f8bf3cd',  'pos' => 0,  '_format' => 'js',), array (), array (  0 =>   array (    0 => 'text',    1 => '/js/f8bf3cd_knockout-2.0.0_1.js',  ),));
     }
 
-    private function get_assetic_2df36c2_1RouteInfo()
+    private function get_assetic_f8bf3cd_1RouteInfo()
     {
-        return array(array (), array (  '_controller' => 'assetic.controller:render',  'name' => '2df36c2',  'pos' => 1,  '_format' => 'js',), array (), array (  0 =>   array (    0 => 'text',    1 => '/js/2df36c2_script_2.js',  ),));
+        return array(array (), array (  '_controller' => 'assetic.controller:render',  'name' => 'f8bf3cd',  'pos' => 1,  '_format' => 'js',), array (), array (  0 =>   array (    0 => 'text',    1 => '/js/f8bf3cd_plugins_2.js',  ),));
+    }
+
+    private function get_assetic_f8bf3cd_2RouteInfo()
+    {
+        return array(array (), array (  '_controller' => 'assetic.controller:render',  'name' => 'f8bf3cd',  'pos' => 2,  '_format' => 'js',), array (), array (  0 =>   array (    0 => 'text',    1 => '/js/f8bf3cd_script_3.js',  ),));
     }
 
     private function get_wdtRouteInfo()

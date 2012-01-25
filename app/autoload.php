@@ -19,6 +19,9 @@ $loader->registerPrefixes(array(
     'Twig_Extensions_' => __DIR__.'/../vendor/twig-extensions/lib',
     'Twig_'            => __DIR__.'/../vendor/twig/lib',
 ));
+$loader->registerNamespaces(array(
+	'MwbExporter' => __DIR__.'/../vendor/mysql-workbench-schema-exporter/lib'
+));
 
 // intl
 if (!function_exists('intl_get_error_code')) {

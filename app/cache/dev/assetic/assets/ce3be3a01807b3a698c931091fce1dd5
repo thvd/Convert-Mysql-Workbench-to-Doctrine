@@ -216,7 +216,11 @@ td { vertical-align: top; }
 
 
 
-
+#output {
+	min-width: 400px;
+	min-height: 300px;
+	resize: both;
+}
 
 
 
